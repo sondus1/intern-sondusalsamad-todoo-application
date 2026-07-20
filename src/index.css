@@ -1,0 +1,35 @@
+:root {
+  --paper: #ECE6D6;
+  --paper-2: #E1D9C4;
+  --ink: #26313D;
+  --ink-soft: #5B6672;
+  --rule: #C9BFA5;
+  --mustard: #C6862B;
+  --mustard-dark: #8F5F19;
+  --sage: #6E8266;
+  --sage-dark: #4A5A44;
+  --rust: #B14A34;
+  --rust-dark: #7C331F;
+
+  --font-display: 'Fraunces', serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  background-image: linear-gradient(var(--rule) 1px, transparent 1px);
+  background-size: 100% 32px;
+  color: var(--ink);
+  font-family: var(--font-mono);
+}
+
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+}
